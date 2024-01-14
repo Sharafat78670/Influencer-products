@@ -1,0 +1,72 @@
+:root{
+    --back:rgb(2, 115, 115);
+    --color:white;
+}
+header{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#Influencer{
+    background-color: var(--back);
+    color:var(--color);
+    padding: 10px;
+}
+#products{
+    color: rgb(2, 115, 115);
+    background-color: white;
+    padding: 10px;
+}
+.navigation ul{
+    display: flex;
+    
+}
+.navigation li{
+    list-style: none;
+    margin-left: 20px;
+}
+.navigation li a{
+    text-decoration: none;
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-content{
+    width: 580px;
+    text-align: left;
+}
+.text-content-title{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#prebook{
+    border-radius: 8px;
+    border: 0;
+    padding: 10px 24px;
+    background:var(--back);
+    color: var(--color);
+    cursor: pointer; 
+}
+.img-content{
+    width: 580px;
+    text-align: center;
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
