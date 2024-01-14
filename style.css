@@ -84,7 +84,7 @@ p{
 }
 
 .img-content {
-    width: 580px;
+    /* width: 580px; */
     text-align: center;
     background-image: url('images/Circle\ design.svg');
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1140px;
+    width: 1040px;
     margin: 0 auto;
     gap: 50px;
     margin-bottom: 100px;
@@ -111,7 +111,7 @@ p{
 
 .collection-box-title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 50px;
     color: var(--back);
@@ -150,6 +150,26 @@ p{
     font-weight: 700;
     color: var(--back);
 }
+/* Footer Section */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--back);
+    color: var(--color);
+    height: 200px;
+}
+.footer-content-2 p{
+    color: var(--color);
+    text-align: center;
+    margin: 0;
+}
+.footer-content-3 img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
 
 @media screen and (max-width:576px) {
     header, main {
@@ -177,17 +197,22 @@ p{
     .collection-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        width: 80%;
     }
     .collection-container img{
-        width: 80%;
+        width: 90%;
         padding: 10px;
     }
     .collection-text-box{
         padding-left: 25px;
-        width: 80%;
+        width: 100%;
     }
     .featured-text-content{
         margin-bottom: 50px;
         margin-top: -40px;
     }
+    .footer-container{
+        flex-direction: column;
+    }
+
 }
