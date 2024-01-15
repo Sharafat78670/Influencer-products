@@ -46,11 +46,12 @@ p{
 
 .navigation li {
     list-style: none;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .navigation li a {
     text-decoration: none;
+    color: var(--back);
 }
 .navigation li a:hover {
    color: var(--back);
@@ -174,11 +175,17 @@ p{
 @media screen and (max-width:576px) {
     header, main {
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     }
     .navigation,.head-container{
         flex-direction: column;
+    }
+    .navigation ul{
+        padding: 0;
+    }
+    .navigation li{
+        margin: 10px;
     }
     .head-container ,.featured-content{
         flex-direction: column;
@@ -186,7 +193,7 @@ p{
     }
     .text-content{
         margin-top: 40px;
-        width: 100%;
+        width: 80%;
         margin-left: 20px;
     }
     .sponsore{
